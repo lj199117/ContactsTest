@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/add_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add data"
+        />
+
+    <Button
+        android:id="@+id/update_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update data"
+        />
+
+    <Button
+        android:id="@+id/delete_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete data"
+        />
+
+    <Button
+        android:id="@+id/query_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Query data"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="由此可以看出，通过内容提供者,我们的跨程序共享数据功能已经成功实现了！现在不仅是这个程序，任何一个程序都可以轻松访问DatabaseTest中的数据，而且我们还丝毫不用担心隐私数据泄漏的问题。"/>
+</LinearLayout>
